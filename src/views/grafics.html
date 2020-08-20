@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+    <!-- BOOTSTRAP 4-->
+    <%- include('./partials/head.html') %>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+</head>
+<body>
+    <%- include('./partials/side_nav.html') %>
+    <div id="main">
+        <%- include('./graficos/navigation.html') %>  
+        <div class="container" style="background-color: white; min-height: 100vh; margin-bottom: 30px; margin-top: 30px;">
+            <div id="myfirstchart" style="height: 250px;"></div>
+        </div>
+        <%- include('./partials/fooder.html') %>
+        <%- include('./graficos/fooder.html') %>
+    </div>
+</body>
+<script src="/scripts/grafics.js"></script>
+</html>

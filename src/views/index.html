@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js" defer></script>
+  <script src="http://code.jquery.com/jquery-1.6.2.min.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title%></title>
+  <%- include('./partials/head.html') %>
+  <link rel="stylesheet" href="/css/form.css">
+  <link rel="stylesheet" href="/css/dialog.css">
+</head>
+<body>
+  <%- include('./index/navigation.html') %>
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-sm" style="margin-right: 95px;">
+        <h1 style="color: white;">Mi Hogar</h1>
+        <h5 style="color: silver;">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem doloribus repellat voluptates ab, debitis
+            perspiciatis aut laudantium fuga repellendus obcaecati qui mollitia provident labore assumenda nobis maxime
+            beatae quibusdam maiores.
+          </p>
+        </h5>
+      </div>
+      <div class="card col-sm">
+        <div class="card-header">
+          <p class="card-text">Registro</p>
+        </div>
+        <div class="card-body" style="text-align: start;">
+          <form method="post" id="form_registro">
+            <input type="hidden" name="_csrf" value=<%= csrfToken%>>
+            <div class="form-group">
+              <label for="inputEmail">Correo*</label>
+              <input type="email" class="form-control" minlength="8" name="email" id="inputEmail" placeholder="example@domino.com" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputPassword">Contraseña*</label>
+                <input type="password" class="form-control" minlength="8" name="password" id="inputPassword" placeholder="Contraseña" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword2">Confirme su contraseña*</label>
+                <input type="password" class="form-control" name="password2" onblur="onBlurPassword()"id="inputPassword2" placeholder="Confirma tu contraseña" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Direccion*</label>
+              <input type="text" class="form-control" name="address" id="inputAddress"
+                placeholder="Rua dos Bobos, nº 0" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Departamento*</label>
+                <input type="text" class="form-control" name="city" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputEstado">Pais*</label>
+                <select id="inputEstado" name="estado" class="form-control">
+                  <%- include('./partials/select_paises.html') %>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputCEP">CEP*</label>
+                <input type="text" name="cep" class="form-control" id="inputCEP">
+              </div>
+            </div>
+            <input type="submit" class="btn btn-primary" id="btRegistrar" value="Registrar">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="openModal" class="modalbg">
+    <div class="dialog">
+      <a href="#close" title="Close" class="close">X</a>
+      <h2>Registro Exitoso!!!</h2>
+      <p>Se ha enviado un correo de verficacion a su correo electronico</p>
+      <p>Porfavor ingrese a su correo y verifique</p>
+      <button type="button" onclick="autoSignIn()">Continuar</button>
+    </div>
+  </div>
+  <%- include('./partials/fooder.html') %>
+</body>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+  <script data-main="js/app.js" src="js/require.js"></script>
+
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script src="/scripts/index.js"></script>
+
+</html>

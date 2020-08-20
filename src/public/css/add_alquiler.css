@@ -1,0 +1,27 @@
+.userItem{
+    text-align: start;
+    margin-bottom: 5px;
+    border-bottom: 1px;
+    border-style:   hidden hidden solid hidden;   
+    display: flex;
+}
+.item{
+    width: 100%;
+}
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
+.image{
+    width: 32px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+
+.midiv{
+    min-height: 100vh;
+}

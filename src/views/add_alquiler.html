@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="http://code.jquery.com/jquery-1.6.2.min.js" ></script> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><%= title %></title>
+        <%- include('./partials/head.html') %>
+        <link rel = "stylesheet" href="/css/add_alquiler.css">
+
+    </head>
+    <body>
+
+        <%- include('./partials/side_nav.html') %>
+        <div id="main" >
+            <%- include('./partials/navigation.html') %>      
+            <div class="container p-2 midiv" >
+                <div class="row">
+                    <div class="col p-2">
+                    <div class="card p-2" style="width: 100%;">
+                        <div class="card-body row"  id="dataAlquiler">
+                            <div class="col-5">
+                                <label for="date-time" style="margin-left: 5px; width: 100%; text-align: start;">Fecha y hora de inicio</label>
+                                <div id="date-time" style="display: flex;">
+                                    <div class="col">
+                                        <input class="form-control" type="date" value="2011-08-19" id="date">
+                                    </div>
+                                    <div class="col">
+                                        <input class="form-control" type="time" value="12:00" id="time">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <label for="mensualidad" style="margin-left: 5px; width: 100%; text-align: start;">Monto mensual</label>
+                                <input class="form-control" type="number" id="mensualidad">
+                            </div>
+                            <div class="col">
+                                <label for="radioOptions" style="margin-left: 5px; width: 100%; text-align: start;">Pago inicial</label>
+                                <div class="row" id="radioOptions">
+                                    <div class="form-check col">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="radioOp" id="rbtOp1" value="options1">
+                                            Pago realizado
+                                        </label>
+                                    </div>
+                                    <div class="form-check col">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="radioOp" id="rbtOp2" value="options2"  checked>
+                                            Falta realizar pago
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm p-2">
+                        <div class="card p-2" style="width: 100%; height: 400px; " >
+                            <div class="overflow-auto" data-spy="scroll" style = " max-height: 360px;"data-target="#userList" data-offset="0">
+                                <div class="card-body"  id="usersList" >
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm p-2" >
+                        <div class="card" style="width: 100%; height: 400px;">
+                            <div class="card-body">
+                                <div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control"  id="dni" maxlength="8" placeholder="Numero de DNI" value="72017649">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control"  id="nombres" maxlength="40" placeholder="Nombres" value="Yorvin Alexander">
+                                    </div>
+                                    <div class="row">    
+                                        <div class="form-group col-sm">
+                                            <input type="text" class="form-control" id="apePat" maxlength="20" placeholder="Apellido paterno" value="Rodriguez">
+                                        </div>
+                                        <div class="form-group col-sm">
+                                            <input type="text" class="form-control" id="apeMat" maxlength="20" placeholder="Apellido materno" value="Carrion">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control"  id="correo"  placeholder="Correo" value="alexDragonrc@gmail.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" id="tel"  placeholder="Numero telefonico" value="+51 991686338986">
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-primary" onclick="addUser()">Agregar</button>
+                                    </div>
+                                </div>     
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row container" >
+                    <button class="btn btn-primary" style="margin-left: auto; margin-right: auto;" onclick="crearAlquiler()">Guardar</button>
+                </div>
+            </div>
+            <%- include('./partials/fooder.html') %>    
+        </div>
+    </body>
+    <script src="/scripts/add_alquiler.js"></script>
+</html>

@@ -1,0 +1,64 @@
+
+body{
+    font-family: cursive;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.button-foreground{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and(max-width:600px){
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    padding: 20px;
+    grid-gap: 2rem;
+    align-items: center;
+    
+  justify-content: center;
+}
+.card{
+    width: 18rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    display: block;
+}
+
+.image{
+    max-width: 100px;
+    max-height: 100px;
+    text-align: center;
+    display:block;
+    margin:auto;    
+}
+
+.button{
+    margin: 5px;
+}
+
+.avatar-pic {
+    width: 150px;
+}
+

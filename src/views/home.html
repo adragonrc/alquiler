@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+    <!-- BOOTSTRAP 4-->
+    <%- include('./partials/head.html') %>
+    
+</head>
+<body>
+    <%- include('./partials/side_nav.html') %>
+    <div id="main">
+        <%- include('./partials/navigation.html') %>  
+        <div class="container" style="min-height: 100vh;" > 
+            <div class="text-center" id="loader" style="line-height: 90vh; height: 90vh; color: white; text-align: center;">
+                <div class="spinner-border" >
+                  <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <div class="grid-container " id="contCuartos"> 
+               
+            </div>
+        </div>  
+        <%- include('./partials/fooder.html') %>
+    </div>
+</body>
+<script src="/scripts/home.js"></script>
+</html>

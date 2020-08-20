@@ -1,0 +1,1 @@
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Alexa\OneDrive\Documentos\Paginas web projects\Alquiler\alquileres-8d9ed-firebase-adminsdk-xh9md-2fa36044ae.json"

@@ -1,0 +1,25 @@
+<script>
+    goToIndex = false;
+    firebase.auth().signOut().then(function () {
+        fetch("/sessionLogout", {
+                method: "POST",
+                headers: {
+                Accept: "application/json",
+                "Content-Type": "text/html",
+                "CSRF-Token": Cookies.get("XSRF-TOKEN"),
+                },
+            }).then(function(res){
+                if(res.ok)
+                    window.location.assign("/");
+                else{
+                    alert("No se pudo cerrar la sesion");
+                    goToIndex = true;   
+                }
+            });
+            console.log("Front - logout");
+    }).catch(function (error) {
+        goToIndex = true;
+        alert("No se pudo cerrar la sesion");
+        console.log("error logout", error);
+    });
+</script>
