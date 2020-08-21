@@ -1,19 +1,21 @@
-
-.description{ 
-    min-height: 90vh;
-}
 /* display: flex.*/
 .head{
     display: flex;
 }
 /* display: blok.*/
+
+.left{
+    margin-right: 0px;
+}
+.right{
+    margin-left: 0px;
+}
 .mdiv{
     display: none;
-    width: 100%; 
-    background-color: gainsboro; 
-    padding: 10px;
+    min-height: 90vh;
+    background-color: white; 
+    padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 .center {
@@ -21,4 +23,15 @@
     justify-content: center;
     align-items: center;
     border: 3px solid green; 
-  }
+}
+
+.mSpan{
+    margin-bottom: 5px;
+   
+}
+.span_label_0{
+    color: rgba(0, 0, 0, .54);
+}
+.span_label{
+    color: rgba(0, 0, 0, .87);
+}

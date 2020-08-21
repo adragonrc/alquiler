@@ -128,8 +128,10 @@ function addPayment(){
         .add(newPago)
         .then((pagoRef)=>{
             alert("Listo ;)");
-            
-            document.getElementById("state").style.display ="none";
+            docAlquiler.ref.update({numeroDePagos: docAlquiler.data().numeroDePagos+1})
+            .then(()=>{
+                document.getElementById("state").style.display ="none";
+            });
         })
     }
 }
@@ -162,7 +164,7 @@ function freeRoom(){
 
 function occupiedRoom(){
     document.getElementById("description_box").style.display = "block";
-    document.getElementById("header_box").style.display = "flex";
+    document.getElementById("header_box").style.display = "block";
     document.getElementById("btAddRental").style.display = "none";
     document.getElementById("table").style.display = "table";
     btRemoveRental.style.display = "block";
