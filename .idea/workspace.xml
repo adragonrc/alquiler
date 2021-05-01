@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7814704b-9f51-4d10-bd2f-861ccc77dc47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/res/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/add_alquiler.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/cuarto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/side_nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/image/anonimo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/image/cuarto1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/image/cuarto2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/image/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/addRoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/add_alquiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/cuarto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/databaseAdmin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/grafics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/init-firebase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/scripts/utilidades.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/add_alquiler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/add_room.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cuarto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dialog1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/graficos/fooder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/graficos/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/grafics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index/signout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/drag_and_drop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/fooder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/select_paises.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/side_nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/registrarCasa.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oZeyvOcAr5npehueFR6ZeaUUW8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../developer/WEB/Mi Hogar" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexa\OneDrive\Documentos\Paginas web projects\Alquiler\res" />
+      <recent name="C:\Users\Alexa\OneDrive\Documentos\Paginas web projects\Alquiler\functions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexa\OneDrive\Documentos\Paginas web projects\Alquiler\functions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7814704b-9f51-4d10-bd2f-861ccc77dc47" name="Default Changelist" comment="" />
+      <created>1613498798052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613498798052</updated>
+      <workItem from="1613498801186" duration="1689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
